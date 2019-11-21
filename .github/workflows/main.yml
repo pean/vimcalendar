@@ -12,7 +12,7 @@ jobs:
       - name: checkout
         uses: actions/checkout@v1
       - name: build
-        uses: ./github/actions/build
+        uses: ./.github/actions/build
       - name: deploy
         uses: jakejarvis/s3-sync-action@master
         with:
