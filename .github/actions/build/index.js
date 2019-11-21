@@ -1,4 +1,4 @@
-console.log("Build action runs")
+console.log("build action started")
 
 var fs = require('fs');
 
@@ -18,3 +18,5 @@ fs.readdir(src, function(err, files) {
     });
   });
 });
+
+console.log("build action done")
