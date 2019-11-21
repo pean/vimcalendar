@@ -17,8 +17,8 @@ fs.readdir(src, function(err, files) {
     destFile = dest + "/" + day + ".txt";
     fs.copyFile(srcFile, destFile, (err) => {
       if(err) throw err;
-      console.log(srcFile + " was copied to " + destFile)
     });
+    console.log(srcFile + " was copied to " + destFile)
   });
 });
 
