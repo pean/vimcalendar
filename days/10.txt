@@ -1,1 +1,8 @@
-10.txt
+Ctrl + e
+
+Scroll down witnout moving the cursor
+
+Bonus: Ctrl + y will scroll up
+
+---
+10

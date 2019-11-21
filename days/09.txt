@@ -1,1 +1,10 @@
-09.txt
+M
+
+Move cursor to middle of screen
+
+Bonus: H will move to the top
+
+Bonus 2: L will move to the bottom
+
+---
+09
