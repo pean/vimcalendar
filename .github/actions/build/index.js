@@ -1,6 +1,6 @@
 console.log("build action started")
 
-var fs = require("fs");
+const fs = require("fs");
 const Hashids = require('hashids/cjs')
 
 var src = "days";
