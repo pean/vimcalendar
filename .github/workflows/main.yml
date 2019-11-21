@@ -9,7 +9,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/build
+      - uses: actions/build@v1
   deploy:
     runs-on: ubuntu-latest
     steps:
