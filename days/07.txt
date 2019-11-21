@@ -1,1 +1,6 @@
-07.txt
+%bd!
+
+Close all buffers. No questions asked.
+
+---
+07
