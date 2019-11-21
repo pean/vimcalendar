@@ -1,1 +1,6 @@
-02.txt
+C
+
+Erase everything after the cursor and go to insert mode.
+
+---
+02

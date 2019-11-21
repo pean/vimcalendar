@@ -1,1 +1,9 @@
-06.txt
+cw
+
+Delete the word under the cursor and go to insert mode. "Change Word@".
+
+Bonus: ciw will change the whole word even if the cursor is in the middle of
+the word. "Cahgen In Word".
+
+---
+06

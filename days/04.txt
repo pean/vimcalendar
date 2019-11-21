@@ -1,1 +1,12 @@
-04.txt
+~
+
+Change of a character in a document.
+
+Examples:
+
+5~ will change tHe following 5 five characters from the cursor
+^V5 WILL change the case of the line
+g~iw will change the case of the word under the cursor
+
+---
+04

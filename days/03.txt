@@ -1,1 +1,6 @@
-03.txt
+S
+
+Erase the line from the first non-blank character and go to insert mode.
+
+---
+03
