@@ -2,8 +2,10 @@ cw
 
 Delete the word under the cursor and go to insert mode. "Change Word@".
 
-Bonus: ciw will change the whole word even if the cursor is in the middle of
+Bonus: ciw will  the whole word even if the cursor is in the middle of
 the word. "Change In Word".
+
+Bonus 2: bves will do the same thing as cw AND ciw
 
 ---
 06
