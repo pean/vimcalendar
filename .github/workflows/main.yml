@@ -1,4 +1,4 @@
-name: Deploy to S3
+name: Build and deploy
 
 on:
   push:
@@ -6,6 +6,10 @@ on:
       - master
 
 jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      uses: actions/build
   deploy:
     runs-on: ubuntu-latest
     steps:
