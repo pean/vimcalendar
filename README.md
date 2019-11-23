@@ -1,5 +1,10 @@
 # vimcalendar
 
+## Disclaimer
+
+This is very much a work in progress. Days will change and reorder. There
+are probably a ton of spelling errors. 
+
 ## What?
 
 This this a advent calendar for [@nwikstrand](https://github.com/nwikstrand).
@@ -21,7 +26,7 @@ On a lab day at [Hemnet](http://github.com/hemnet) I decided to make it happen.
 
 The code in this repository will deploy
 [simple text files](https://github.com/pean/vimcalendar/tree/master/days) to a
-AWS S3 bucket with a hashed filename.
+AWS S3 bucket with a hashed filename with a Github Actions pipleline.
 
 [QR codes](https://github.com/pean/vimcalendar/tree/master/qrcodes) are
 generated pointing to the URL at AWS.
