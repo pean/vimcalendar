@@ -29,4 +29,4 @@ generated pointing to the URL at AWS.
 These QR codes will be printed and glued to a physical calendar along with the
 acutal command.
 
-!(vimcalendar)[adventcalendar.jpeg]
+![vimcalendar](https://raw.githubusercontent.com/pean/vimcalendar/master/adventcalendar.jpeg?token=AAFGONHLPDPAZPGPL673UKK53GENY)
