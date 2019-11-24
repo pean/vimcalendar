@@ -1,4 +1,19 @@
-:help 42
+q{0-9a-zA-Z"
+
+This will record everthing you are doing. This can be used to repeat tasks and
+and a repetetive task can be created by replaying the recording before ending it.
+
+For example, q1fsra@1 will replace all occurences of s with a on a single line.
+
+q stops the recording.
+
+@{0-9a-z".=*+} will replay your recording.
+
+@@ will repeat the previous replayed recording.
+
+Bonus: @@ [count] will replay [count] number of times.
+
+Christmas special; :help 42
 
 ---
 24
