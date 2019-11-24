@@ -1,1 +1,8 @@
-16.txt
+o
+
+Insert line below the current line.
+
+Bonsu: O insert line above the current line.
+
+---
+16

@@ -1,1 +1,12 @@
-17.txt
+ci[
+
+Change all caracthers in a [] block.
+
+Bonus: Replace can be replaced with { or ( for {} and () blocks.
+
+Bonus: vi[ selects in the block
+
+Bonus: ca[ selects the [] too
+
+---
+17

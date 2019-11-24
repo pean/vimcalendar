@@ -1,1 +1,6 @@
-13.txt
+R
+
+Enter replace mode, overttype existing characters.
+
+---
+13

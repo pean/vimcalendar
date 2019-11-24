@@ -1,1 +1,6 @@
-14.txt
+D
+
+Delete from cursor to end of line
+
+---
+14

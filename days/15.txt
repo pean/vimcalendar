@@ -1,1 +1,16 @@
-15.txt
+f{char}
+
+Go to the next occurrence of {char} in the current line.
+
+Bonus: F will find to the left of the cursor
+
+Bonus 2: t/T will do the same thing but put the cursor in front of the character
+
+Bonus 2: t/T will do the same thing but put the cursor in front of the character
+
+Bonus 3: ; repeats the latest f, t, F, or T.
+
+Bonus 4: , repeats the latest f, t, F or T but in the opposite direction
+
+--
+15
