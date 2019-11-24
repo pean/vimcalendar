@@ -12,5 +12,7 @@ Bonus 3: ; repeats the latest f, t, F, or T.
 
 Bonus 4: , repeats the latest f, t, F or T but in the opposite direction
 
+Bonus 5: cf{char} will delete all characters up until and including {char} and enter insert mode
+
 --
 15

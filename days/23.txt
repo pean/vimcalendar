@@ -1,1 +1,12 @@
-23.txt
+gj
+
+When long lines are wrapped and shown on multiple lines, then gj moves the cursor down one visual line
+
+Bonus: gk same but upwards
+
+Bonus: g$ same but end of visual line
+
+Bonus: g^ same but start of visual line
+
+---
+23

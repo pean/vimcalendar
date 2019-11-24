@@ -1,1 +1,12 @@
-21.txt
+.
+
+Applies the last operation. Ex: if a word was change from foo to bar usig
+ciwbar then other words can be changed into bar by putting the cursor on the
+and typing .
+
+Bonus: normal can be used in command mode to execute normal commands like .
+Ex: if you add a semicolon to the end of the line by typing A;<Esc> and then
+you would like to add ; to more lines, then select the lines that you want and
+type :normal .
+---
+21
