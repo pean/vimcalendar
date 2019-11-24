@@ -2,6 +2,10 @@ m{a-zA-Z}
 
 Set mark and jump to it with `{a-zA-Z}
 
+Marks saved globally and over sessions and will reopen files if closed.
+
+Bonus: :marks will bring up a list of all marks.
+
 Bonus: m` sets the previous context mark. This can be jumped to with ``
 
 ---
