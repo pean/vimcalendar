@@ -2,11 +2,11 @@ ci[
 
 Change all caracthers in a [] block.
 
-Bonus: Replace can be replaced with { or ( for {} and () blocks.
+Bonus: Replace can be replaced with {, ( or < for other type of blocks.
 
-Bonus: vi[ selects in the block
+Bonus: vi[ selects in the block.
 
-Bonus: ca[ selects the [] too
+Bonus: ca[ selects the [] too.
 
 ---
 17
