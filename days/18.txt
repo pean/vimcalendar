@@ -2,18 +2,16 @@ m{a-zA-Z}
 
 Set mark and jump to it with `{a-zA-Z}
 Lowercase letters creates marks local to the current file
-Uppercase letters creates global marks.
+Uppercase letters creates global marks and are valid between files.
 
 Jumping to global mark will navigate to a different file
 
-a-z marks are valid within one file and can be used with operators. For example
-v`a will mark text from cursor to mark a.
-
-A-Z marks (file marks) are valid between files.
+a-z marks  can be used with operators. For example v`a will mark text from
+cursor to mark a.
 
 Bonus: :marks will bring up a list of all marks.
 
-Bonus: m` sets the previous context mark. This can be jumped to with ``
+Bonus 2: m` sets the previous context mark. This can be jumped to with ``
 
 Fun fact: `^ returns to the last place Insert mode was stoppedt, his is what
 gi uses.
