@@ -10,5 +10,9 @@ g~iw will change the case of the word under the cursor
 
 Bonus: U will always change case to uppercase while ~ will "toggle"
 
+Bonus2: u will always change case to lowercase
+
+Bonus3: As usual doubling the commmand will apply it to the current line. Like gUU, guu, g~~ etc
+
 ---
 04

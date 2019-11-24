@@ -2,5 +2,7 @@ gi
 
 Goto insert mode on the last insert point
 
+Bonus: g; will jump to the last insert point but stay in normal mode
+
 ---
 05
