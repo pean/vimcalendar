@@ -22,7 +22,13 @@ fs.readdir(src, function(err, files) {
 
     qrFile = qrcodedir + "/" + day + ".png"
     fullURL = baseurl + destfilename
-    QRCode.toFile(qrFile, fullURL)
+    QRCode.toFile(
+      qrFile,
+      fullURL,
+      {
+        width: 100
+      }
+    )
     console.log("Generated QR code for " + srcFile + " to url " + fullURL)
   });
 });
