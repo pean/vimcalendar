@@ -1,6 +1,10 @@
 m{a-zA-Z}
 
 Set mark and jump to it with `{a-zA-Z}
+Lowercase letters creates marks local to the current file
+Uppercase letters creates global marks.
+
+Jumping to global mark will navigate to a different file
 
 Marks saved globally and over sessions and will reopen files if closed.
 
