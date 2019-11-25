@@ -1,7 +1,12 @@
 const fs = require("fs");
 var PdfPrinter = require('pdfmake');
-var printer = new PdfPrinter();
 var images = []
+var fonts = {
+  Courier: {
+    normal: "Courier"
+  }
+}
+var printer = new PdfPrinter(fonts);
 
 files = fs.readdirSync("qrcodes", function(err, files) {
   if (err) {
@@ -14,9 +19,41 @@ files.forEach(function(file) {
   images.push({ image: "qrcodes/" + file })
 });
 
+body = [
+  [
+    "Day",
+    "QR code"
+  ]
+]
+images.forEach(function(image, index) {
+  body.push(
+    [
+      index.toString(),
+      image,
+    ]
+  );
+});
+
+console.log(body)
+
 var docDefinition = {
-  content: images
+  content: [
+    "vimcalendar",
+    {
+      layout: "lightHorizontalLines",
+      table: {
+        headerRows: 1,
+        widths: [ "*", "*" ],
+        body: body
+      }
+    }
+  ],
+  defaultStyle: {
+    font: "Courier",
+  }
 }
+
+
 
 var pdfDoc = printer.createPdfKitDocument(docDefinition);
 pdfDoc.pipe(fs.createWriteStream("docs/printcalendar.pdf"));
