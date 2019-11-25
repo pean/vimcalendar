@@ -4,16 +4,16 @@ Replace pattern with replacement on the current line. Ex :s/foo/bar/
 
 Bonus: s is a abbreviation for substitute
 
-Bonus: To replace all strings matching pattern add g after the last /
+Bonus 1: To replace all strings matching pattern add g after the last /
 
-Bonus: Use c together with g (like :s/foo/bar/gc) to show a yes/no confirmation
+Bonus 2: Use c together with g (like :s/foo/bar/gc) to show a yes/no confirmation
 dialog for each match.
 
-Bonus: If pattern is left out the last search pattern is used instead
+Bonus 3: If pattern is left out the last search pattern is used instead
 
-Bonus: Use %s to apply the substitution on the hole file. Like :%s//foo/
+Bonus 4: Use %s to apply the substitution on the hole file. Like :%s//foo/
 
-Bonus: & will replay the last substitution
+Bonus 5: & will replay the last substitution
 
 ---
 20

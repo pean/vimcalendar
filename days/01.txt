@@ -2,8 +2,7 @@ zz
 
 Move the cursor to the middle of the screen
 
-Bonus: 
-zt will move it to the top.
+Bonus: zt will move it to the top.
 
 ---
-03
+01
