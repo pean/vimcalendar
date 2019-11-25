@@ -1,6 +1,6 @@
 const fs = require("fs");
+const readline = require("readline");
 var PdfPrinter = require('pdfmake');
-var images = []
 var fonts = {
   Courier: {
     normal: "Courier"
@@ -55,6 +55,7 @@ pdfDoc.pipe(fs.createWriteStream("docs/printcalendar.pdf"));
 pdfDoc.end();
 
 function readImages() {
+  var images = []
   files = fs.readdirSync("qrcodes", function(err, files) {
     if (err) {
       return console.log("Unable to find qrcode directory")
@@ -62,7 +63,6 @@ function readImages() {
   });
 
   files.forEach(function(file) {
-    console.log("qrcodes/" + file);
     images.push({ image: "qrcodes/" + file })
   });
 
@@ -70,9 +70,20 @@ function readImages() {
 }
 
 function readCmds() {
-  cmds = []
-  for(i=0; i<24; i++) {
-    cmds.push("cmd")
-  }
+  var cmds = []
+
+  files = fs.readdirSync("days", function(err, files) {
+    if (err) {
+      return console.log("Unable to find dasys directory")
+    }
+  });
+
+  files.forEach(function(file) {
+    lines = fs.readFileSync("days/" + file, "utf-8");
+    cmd = lines.split(/\r?\n/)[0]
+
+    cmds.push(cmd);
+  });
+
   return cmds;
 }
