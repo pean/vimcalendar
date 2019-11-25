@@ -1,4 +1,4 @@
-q{0-9a-zA-Z"
+q{0-9a-zA-Z}
 
 This will record everthing you are doing. This can be used to repeat tasks and
 and a repetetive task can be created by replaying the recording before ending it.
