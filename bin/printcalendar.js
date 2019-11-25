@@ -8,31 +8,26 @@ var fonts = {
 }
 var printer = new PdfPrinter(fonts);
 
-files = fs.readdirSync("qrcodes", function(err, files) {
-  if (err) {
-    return console.log("Unable to find qrcode directory")
-  }
-});
-
-files.forEach(function(file) {
-  console.log("qrcodes/" + file);
-  images.push({ image: "qrcodes/" + file })
-});
+images = readImages();
+cmds = readCmds();
 
 body = [
   [
     "Day",
-    "QR code"
+    "QR code",
+    "Command"
   ]
 ]
-images.forEach(function(image, index) {
+
+for(i=0; i<24; i++) {
   body.push(
     [
-      index.toString(),
-      image,
+      (i+1).toString(),
+      images[i],
+      cmds[i]
     ]
   );
-});
+}
 
 console.log(body)
 
@@ -43,7 +38,7 @@ var docDefinition = {
       layout: "lightHorizontalLines",
       table: {
         headerRows: 1,
-        widths: [ "*", "*" ],
+        widths: [ "*", "*", "*" ],
         body: body
       }
     }
@@ -58,3 +53,26 @@ var docDefinition = {
 var pdfDoc = printer.createPdfKitDocument(docDefinition);
 pdfDoc.pipe(fs.createWriteStream("docs/printcalendar.pdf"));
 pdfDoc.end();
+
+function readImages() {
+  files = fs.readdirSync("qrcodes", function(err, files) {
+    if (err) {
+      return console.log("Unable to find qrcode directory")
+    }
+  });
+
+  files.forEach(function(file) {
+    console.log("qrcodes/" + file);
+    images.push({ image: "qrcodes/" + file })
+  });
+
+  return images;
+}
+
+function readCmds() {
+  cmds = []
+  for(i=0; i<24; i++) {
+    cmds.push("cmd")
+  }
+  return cmds;
+}
