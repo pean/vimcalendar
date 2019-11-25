@@ -18,6 +18,7 @@
   "homepage": "https://github.com/pean/vimcalendar#readme",
   "dependencies": {
     "hashids": "^2.1.0",
+    "pdfmake": "^0.1.62",
     "qrcode": "^1.4.4"
   }
 }
