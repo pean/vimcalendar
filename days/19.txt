@@ -1,6 +1,6 @@
-cit
+:only
 
-Changes text inside an xml tag
+Close all splits but the active one
 
 ---
 19
