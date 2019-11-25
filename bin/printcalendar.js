@@ -1,5 +1,4 @@
 const fs = require("fs");
-const readline = require("readline");
 var PdfPrinter = require('pdfmake');
 var fonts = {
   Courier: {
