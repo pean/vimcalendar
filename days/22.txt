@@ -1,9 +1,9 @@
-:global/{pattern}/{command}
+:g/{pattern}/{command}
 
 search for lines matching pattern and apply command
-Ex: Delete all lines matching invoicing pattern with :global/invoicing/d
+Ex: Delete all lines matching invoicing pattern with :g/invoicing/d
 
-Bonus: Simply use g as a abbreviation for global
+Bonus: g is an abbreviation for global
 
 Bonus: vglobal (or short vg) runs command on all line that does not match pattern
 

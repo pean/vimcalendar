@@ -1,8 +1,8 @@
-:substitute/{pattern}/{replacement}/
+:s/{pattern}/{string}/
 
-Replace pattern with replacement on the current line. Ex :substitute/foo/bar/
+Replace pattern with replacement on the current line. Ex :s/foo/bar/
 
-Bonus: Simply use s as a abbreviation for substitute
+Bonus: s is a abbreviation for substitute
 
 Bonus: To replace all strings matching pattern add g after the last /
 
