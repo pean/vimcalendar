@@ -16,7 +16,8 @@ body = [
     "Day",
     "QR code",
     "Command"
-  ]
+  ],
+  [" ", " ", " "]
 ]
 
 for(i=0; i<24; i++) {
@@ -35,7 +36,7 @@ var docDefinition = {
   content: [
     "vimcalendar",
     {
-      layout: "lightHorizontalLines",
+      layout: "headerLineOnly",
       table: {
         headerRows: 1,
         widths: [ "*", "*", "*" ],
@@ -45,6 +46,7 @@ var docDefinition = {
   ],
   defaultStyle: {
     font: "Courier",
+    fontSize: 14
   }
 }
 
