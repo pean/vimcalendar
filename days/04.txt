@@ -1,6 +1,6 @@
 ~
 
-Change of a character in a document.
+Change case of a character in a document.
 
 Examples:
 
@@ -8,11 +8,13 @@ Examples:
 Ctrl + V5 WILL change the case of the line
 g~iw will change the case of the word under the cursor
 
-Bonus: U will always change case to uppercase while ~ will "toggle"
+Bonus: U in visual model will always change case to uppercase while ~ will
+"toggle"
 
-Bonus 2: u will always change case to lowercase
+Bonus 2: u in visual will always change case to lowercase
 
-Bonus 3: As usual doubling the commmand will apply it to the current line. Like gUU, guu, g~~ etc
+Bonus 3: As usual doubling the commmand will apply it to the current line. Like
+gUU, guu, g~~ etc
 
 ---
 04
