@@ -1,6 +1,6 @@
 cw
 
-Delete the word under the cursor and go to insert mode. "Change Word@".
+Delete the word under the cursor and go to insert mode. "Change Word".
 
 Bonus: ciw will the whole word even if the cursor is in the middle of
 the word. "Change In Word".
