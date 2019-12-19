@@ -1,8 +1,8 @@
-wa
+:wa
 
 Save all files and keep working
 
-Bonus: xa will save all files and exit
+Bonus: :xa will save all files and exit
 
 ---
 11
